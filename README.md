@@ -1,4 +1,4 @@
-# primeiro_jogo
+# Primeiro Jogo em Javascirp
 
 Vamos criar nosso primeiro jogo! A ideia é que seja um jogo de adivinhação!
 
