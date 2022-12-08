@@ -1,4 +1,4 @@
-# Primeiro Jogo em Javascirp
+# Primeiro Jogo em  Javascript
 
 Vamos criar nosso primeiro jogo! A ideia é que seja um jogo de adivinhação!
 
