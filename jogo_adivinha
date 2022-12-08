@@ -12,15 +12,29 @@
         pulaLinha();
     }
 
-    var numeroPensado = Math.round(Math.random() * 100);
+    function sorteia(n) {
 
-    var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
+        return Math.round(Math.random() * n);
+    }    
+
+    var numeroPensado = sorteia(10);
+
+
+     var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
 
     if(chute == numeroPensado) {
 
         mostra("Uau! Você acertou, pois eu pensei no " + numeroPensado);
     } else {
 
-        mostra("Você errou! Eu tinha pensado no " + numeroPensado);
+        if(chute > numeroPensado) {
+
+            mostra("Você errou! Seu chute é maior que o número pensado!");
+
+        } else {
+
+            mostra("Você errou! Seu chute é menor que o número pensado!");
+        }
+
     }
 </script>
