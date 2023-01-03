@@ -1,4 +1,4 @@
-# Primeiro Jogo em  Javascript
+# Primeiro Jogo em  Javascript e HTML
 
 Vamos criar nosso primeiro jogo! A ideia é que seja um jogo de adivinhação!
 
